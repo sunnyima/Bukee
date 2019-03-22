@@ -15,3 +15,22 @@ body{
   background-size: cover;
 
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo{
+    background-image: url("../img/Logo.svg");
+    display: block;
+    width: 137px;
+    height: 28px;
+  }
+  &-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    &__item{
+      margin-left: 15px;
+    }
+  }
+}
