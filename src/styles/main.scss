@@ -1,0 +1,17 @@
+@import "libs";
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "general/fonts";
+@import "general/base";
+@import "../blocks/blocks";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700');
+
+body{
+  font-family: 'Roboto Slab', serif;
+}
+.page-main {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
