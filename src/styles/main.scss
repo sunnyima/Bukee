@@ -22,6 +22,9 @@ body{
   color: $light-color;
   padding-bottom: 50px;
 }
+.page{
+  padding-top: 160px;
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -71,6 +74,10 @@ body{
     letter-spacing: 0.7px;
     margin-bottom: 30px;
   }
+  &_name-top{
+    margin-top: 15px;
+    margin-left: 0px;
+  }
 
   &__title{
     font-size: 48px;
@@ -90,7 +97,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.75px;
     margin-bottom: 24px;
   }
   &__btn{
@@ -124,5 +131,21 @@ body{
     background-repeat: no-repeat;
     /*background-size: cover;*/
     flex-basis: 447px;
+  }
+}
+.block-author{
+  display: flex;
+  justify-content: space-between;
+}
+.block-ava{
+  position: relative;
+  &__svg{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  }
+  &__img{
+    margin-right: 45px;
+    margin-top: 45px;
   }
 }
