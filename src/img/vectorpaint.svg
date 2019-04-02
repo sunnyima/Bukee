@@ -1,0 +1,22 @@
+<svg data-name="book img" xmlns="http://www.w3.org/2000/svg" width="268.4347844123839" height="406.8260869979857" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none" style="" class="selected"/>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44444f;
+      }
+
+      .cls-2 {
+        fill: #65e496;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #3d3d47;
+      }
+    </style>
+  </defs>
+  
+  
+  
+  
+<g class="currentLayer" style=""><title>Layer 1</title><rect id="book" class="cls-1" width="268.93798828125" height="409" rx="5" ry="5"/><path class="cls-2" d="M250.6719970703125,294.169921875 l105.65499877929688,-61 a5,5 0 1 1 5,8.65999984741211 l-105.65499877929688,61 A5,5 0 0 1 250.6719970703125,294.169921875 z" id="svg_1"/><path id="Rectangle_11_copy" data-name="Rectangle 11 copy" class="cls-2" d="M250.6719970703125,267.169921875 l105.65499877929688,-61 a5,5 0 1 1 5,8.65999984741211 l-105.65499877929688,61 A5,5 0 0 1 250.6719970703125,267.169921875 z"/><rect class="cls-3" width="37.90599822998047" height="409" id="svg_2"/></g></svg>

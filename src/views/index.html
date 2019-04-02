@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<title>Bukee</title>
 		//= includes/head.html
 	</head>
@@ -27,7 +28,12 @@
 			</header>
 			<div class="wrap">
 				<div class="block-book">
-					<div class="block-book-demo"></div>
+					<div class="block-book-demo">
+						<h2 class="block-book-demo__title">GOOD BOOK
+							<span>Don’t judge a book by its cover</span>
+						</h2>
+						<p class="block-book-demo__author">- By Emma Anderson</p>
+					</div>
 					<div class="block-text">
 						<p class="block-text__name">- By Emma Anderson</p>
 						<h1 class="block-text__title">BUKEE: THE BOOK
@@ -36,7 +42,7 @@
 						<p class="block-text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 							nisi ut aliquip ex ea commodo consequat.</p>
-						<p class="block-text__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						<p class="block-text__description block-text__description-small-margin">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
 							est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
 						<a href="#" class="block-text__btn">Buy this book - $15.00</a>
@@ -56,7 +62,7 @@
 						<p class="block-text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
 							aliquip ex ea commodo consequat.</p>
-						<p class="block-text__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						<p class="block-text__description block-text__description-small-margin">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
 							est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
 						<a href="#" class="block-text__btn">Read full biography</a>
@@ -80,12 +86,12 @@
 			</div>
 		</div>
 		<div class="page page_gray">
-		<div class="wrap">
-			<div class="block-book-contents">
-				<h2 class="page__title">Book Contents</h2>
-				<p class="page__subtitle" >Let’s see what we have covered in the book</p>
-			</div>
-			<div class="block-about">
+			<div class="wrap">
+				<div class="block-book-contents">
+					<h2 class="page__title">Book Contents</h2>
+					<p class="page__subtitle" >Let’s see what we have covered in the book</p>
+				</div>
+				<div class="block-about">
 				<div class="block-about-text">
 					<h3 class="block-info__title">About the book</h3>
 					<p class="block-about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -120,8 +126,58 @@
 					<button class="block-about__btn">More</button>
 				</div>
 			</div>
+			</div>
 		</div>
-			<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.183497713806!2d30.382862496951244!3d59.96533504543953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633d4a2cca273%3A0xba0edbd2ee0f6f40!2z0KLRgNC-0LvQu9C10LnQsdGD0YHQvdC-0LUg0LTQtdC_0L4!5e0!3m2!1sru!2sru!4v1553766958483" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-	</div>
+		<div class="page">
+			<div class="wrap">
+				<div class="block-book-contents block-book-contents-margin">
+					<h2 class="page__title">Other Books</h2>
+					<p class="page__subtitle" >Let’s see what we have covered in the book</p>
+				</div>
+				<div class="block-other">
+					<div class="block-other-books">
+						<div class="block-book-small">
+							<h2 class="block-book-small__title">Inception
+								<span>Books are the best friends</span>
+							</h2>
+							<p class="block-book-small__author">- By Emma Anderson</p>
+						</div>
+						<div class="block-book-small">
+							<h2 class="block-book-small__title">Fight Club
+								<span>Books are the best friends</span>
+							</h2>
+							<p class="block-book-small__author">- By Emma Anderson</p>
+						</div>
+						<div class="block-book-small">
+							<h2 class="block-book-small__title">Daredevils
+								<span>Books are the best friends</span>
+							</h2>
+							<p class="block-book-small__author">- By Emma Anderson</p>
+						</div>
+					</div>
+					<div class="block-other-dscr">
+						<div class="block-book-dscr">
+							<h2 class="block-book-dscr__title">Inception</h2>
+							<p class="block-book-dscr__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+								et dolore magna aliqua.</p>
+							<a class="block-book-dscr__btn">Read more</a>
+						</div>
+						<div class="block-book-dscr">
+							<h2 class="block-book-dscr__title">Fight Club</h2>
+							<p class="block-book-dscr__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+								et dolore magna aliqua.</p>
+							<a class="block-book-dscr__btn">Read more</a>
+						</div>
+						<div class="block-book-dscr">
+							<h2 class="block-book-dscr__title">Daredevils</h2>
+							<p class="block-book-dscr__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+								et dolore magna aliqua.</p>
+							<a class="block-book-dscr__btn">Read more</a>
+						</div>
+					</div>
+					<a href="#" class="block-other__btn">Browse all books</a>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
