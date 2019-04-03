@@ -23,6 +23,9 @@ body{
   max-width: 1170px;
   margin: 0 auto;
 }
+.clear{
+  clear: both;
+}
 .page-main {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
@@ -47,6 +50,21 @@ body{
     text-align: center;
     font-size:  18px;
     letter-spacing: 0.9px;
+  }
+  &__btn{
+    align-self: center;
+    margin-top: 80px;
+    display: block;
+    background: linear-gradient(to top left, #65e49c, #65e4af);
+    color: $light-color;
+    text-decoration: none;
+    max-width: 250px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    letter-spacing: 0.7px;
+    box-shadow: 0 -2px #b2f1be inset;
   }
 }
 .header{
@@ -103,14 +121,14 @@ body{
   }
   &__name_top{
     margin-top: 15px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 35px;
   }
 
   &__title{
     font-size: 48px;
-    font-weight: 700;
     letter-spacing: 1.8px;
+    font-weight: 400;
     margin-bottom: 40px;
     span{
       display: block;
@@ -119,6 +137,9 @@ body{
       margin-top: 25px;
       letter-spacing: 0.9px;
     }
+  }
+  &__title_bold{
+    font-weight: 700;
   }
 
   &__description{
@@ -133,7 +154,7 @@ body{
   }
   &__btn{
     display: block;
-    background-color: $accent-color;
+    background: linear-gradient(to top left, #65e49c, #65e4af);
     color: $light-color;
     text-decoration: none;
     max-width: 250px;
@@ -143,11 +164,19 @@ body{
     padding: 14px 0;
     letter-spacing: 0.7px;
     margin-bottom: 19px;
+    box-shadow: 0 -2px #b2f1be inset;
+  }
+  &__btn-main{
+    box-shadow: 0 -2px #59ba88 inset;
   }
   small{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: italic;
+  }
+  &__subtitle{
+  }
+  &__datetime{
   }
 }
 .block-book{
@@ -202,11 +231,21 @@ body{
   &__svg{
     position: absolute;
     z-index: -1;
-    right: 0;
+    &_right{
+      right: 0;
+    }
+    &_left{
+      left: 0;
+    }
   }
   &__img{
-    margin-right: 45px;
     margin-top: 45px;
+    &_right{
+      margin-right: 45px;
+    }
+    &_left{
+      margin-left: 45px;
+    }
   }
 }
 .block-counters{
@@ -279,7 +318,7 @@ body{
   &__btn{
     margin-top: 25px;
     display: block;
-    background-color: $accent-color;
+    background: linear-gradient(to top left, #65e49c, #65e4af);
     color: $light-color;
     text-decoration: none;
     max-width: 250px;
@@ -288,6 +327,8 @@ body{
     font-size: 18px;
     padding: 15px 45px;
     letter-spacing: 0.7px;
+    border: none;
+    box-shadow: 0 -2px #b2f1be inset;
   }
   .block-featured {
     display: flex;
@@ -392,7 +433,8 @@ body{
         display: block;
         color: #999;
       }
-      &__btn{
+      &__link{
+        text-decoration: none;
         text-transform: uppercase;
         color: $accent-color;
         font-family: 'Open Sans', sans-serif;
@@ -401,19 +443,5 @@ body{
         letter-spacing: 2px;
       }
     }
-  }
-  &__btn{
-    align-self: center;
-    margin-top: 80px;
-    display: block;
-    background-color: $accent-color;
-    color: $light-color;
-    text-decoration: none;
-    max-width: 250px;
-    border-radius: 3px;
-    text-align: center;
-    font-size: 18px;
-    padding: 15px 30px;
-    letter-spacing: 0.7px;
   }
 }
