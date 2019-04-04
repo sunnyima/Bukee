@@ -175,8 +175,27 @@ body{
     font-style: italic;
   }
   &__subtitle{
+    letter-spacing: 1px;
   }
   &__datetime{
+    letter-spacing: 0.8px;
+    margin-bottom: 7px;
+    display: block;
+  }
+}
+.block-text_right{
+  margin-left: 120px;
+  .block-text__name{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .block-text__description{
+    margin-bottom:  20px;
+  }
+  .block-text__btn{
+    max-width: 140px;
+    margin-bottom: 55px;
   }
 }
 .block-book{
