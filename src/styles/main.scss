@@ -464,7 +464,59 @@ body{
     }
   }
 }
+.block-blog-titles{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
 .block-blog{
   display: flex;
   justify-content: space-between;
+  &-item{
+    margin-right: 30px;
+    &-picture{
+      height: 224px;
+      width: 369px;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 15px;
+    }
+    &__img{
+      margin-bottom: 10px;
+      position: absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+    }
+    &__title{
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      margin-bottom: 5px;
+    }
+    &-datetime{
+      &__text{
+        padding: 0;
+        margin:  0;
+      }
+      &__link{
+        text-decoration: none;
+        color: $accent-color;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+      }
+    }
+    &__text{
+
+    }
+  }
+  &-item:last-child{
+    margin-right: 0;
+  }
+}
+.btn-blog{
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 15px 10px;
 }
