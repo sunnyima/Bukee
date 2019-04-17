@@ -11,6 +11,7 @@ $accent-color :#65e496;
 $bg-light-color : #f5f6fa;
 $dg-dark-color : #444444;
 $green-btn: #5fc9b5;
+$grey-color : #9191b5;
 body{
   font-family: 'Roboto Slab', serif;
   font-size: 15px;
@@ -52,6 +53,7 @@ body{
     letter-spacing: 0.9px;
   }
   &__btn{
+    border: none;
     align-self: center;
     margin-top: 80px;
     display: block;
@@ -519,4 +521,94 @@ body{
   margin: 0 auto;
   margin-top: 40px;
   padding: 15px 10px;
+}
+
+.block-letter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  &-item{
+    flex-basis: 49%;
+  }
+  &__title{
+    margin-top: 8px;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom:  25px;
+    letter-spacing: 2px;
+  }
+  &__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+  &__input{
+    width: 100%;
+    background-color: $dg-dark-color;
+    border: none;
+    color: $grey-color;
+    padding:15px 27px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    letter-spacing: 0.6px;
+    &:focus{
+      outline: none;
+    }
+  }
+  &__btn{
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    margin-top: 21px;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+footer{
+  background-color: $dg-dark-color;
+  color: $grey-color;
+  padding: 160px 0;
+}
+.block-footer{
+  display: flex;
+  justify-content: space-between;
+  &-info{
+    flex-basis: 32%;
+  }
+  &-links{
+    flex-basis: 23%;
+  }
+  &__logo{
+    background-image: url("../img/logo_footer.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 137px;
+    height: 28px;
+  }
+  &__title{
+    font-size: 18px;
+    color: $accent-color;
+    text-transform: uppercase;
+  }
+  &__list{
+    list-style-type: none;
+    padding-left: 0;
+    &__item{
+
+    }
+  }
+  &__social{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    &>li{
+      margin-right:  10px;
+      &>a {
+        color: $accent-color;
+      }
+    }
+  }
 }
