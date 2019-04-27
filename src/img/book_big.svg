@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="book" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 594 639" style="enable-background:new 0 0 594 639;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#44444F;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#65E496;}
-	.st2{fill:#3D3D47;}
-</style>
-<path id="book-2" class="st0" d="M5,0h435c2.8,0,5,2.2,5,5v629c0,2.8-2.2,5-5,5H5c-2.8,0-5-2.2-5-5V5C0,2.2,2.2,0,5,0z"/>
-<path id="Rectangle_10_copy" class="st1" d="M376.1,536l165.4-165.4c12.1-12,31.5-11.9,43.5,0.2c11.9,12,11.9,31.3,0,43.3
-	L419.5,579.5c-12,12-31.5,12-43.5,0S364,548.1,376.1,536z"/>
-<path id="Rectangle_10_copy_2" class="st1" d="M295.3,490.2l165.4-165.4c12.1-12,31.5-11.9,43.5,0.2c11.9,12,11.9,31.3,0,43.3
-	L338.7,533.7c-12,12-31.5,12-43.5,0C283.3,521.7,283.3,502.2,295.3,490.2z"/>
-<rect class="st2" width="62.7" height="639"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="444.969" height="639" viewBox="0 0 444.969 639">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44444f;
+      }
+    </style>
+  </defs>
+  <rect id="book" class="cls-1" width="444.969" height="639" rx="5" ry="5"/>
 </svg>
